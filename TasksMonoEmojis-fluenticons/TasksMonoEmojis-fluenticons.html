@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<style>
+/*! 
+License reproduced from https://github.com/microsoft/fluentui-system-icons
+
+MIT License
+
+Copyright (c) 2020 Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+@font-face {
+    font-family: 'TasksMonoEmojis';
+    src: url('data:@file/octet-stream;base64,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') format('woff2');
+    unicode-range: U+1F194, U+1F3C1, U+1F4C5, U+1F4CD, U+1F501, U+1F517, U+1F53A, U+1F53C, U+1F53D, U+1F6EB, U+23E9, U+23EB, U+23EC, U+23F0, U+23F3, U+26D4, U+2705, U+274C, U+2795, U+F1589;
+    /* 🆔, 🏁, 📅, 📍, 🔁, 🔗, 🔺, 🔼, 🔽, 🛫, ⏩, ⏫, ⏬, ⏰, ⏳, ⛔, ✅, ❌, ➕, 󱖉 */
+    /*! Generator: obsidian-tasks-custom-icons v1.0.4 https://github.com/obsidian-tasks-group/obsidian-tasks-custom-icons */
+}
+
+tr td:last-child {font-family: 'TasksMonoEmojis', sans-serif; text-align:center}
+td {padding:0 4px;}
+</style>
+<table><tbody>
+<tr><td>🆔</td><td>u1F194-first.svg</td><td>U+1F194</td><td>🆔</td></tr><tr><td>🏁</td><td>u1F3C1-oncomplete.svg</td><td>U+1F3C1</td><td>🏁</td></tr><tr><td>📅</td><td>u1F4C5-due.svg</td><td>U+1F4C5</td><td>📅</td></tr><tr><td>📍</td><td>u1F4CD-location.svg</td><td>U+1F4CD</td><td>📍</td></tr><tr><td>🔁</td><td>u1F501-recurring.svg</td><td>U+1F501</td><td>🔁</td></tr><tr><td>🔗</td><td>u1F517-link.svg</td><td>U+1F517</td><td>🔗</td></tr><tr><td>🔺</td><td>u1F53A-highest.svg</td><td>U+1F53A</td><td>🔺</td></tr><tr><td>🔼</td><td>u1F53C-medium.svg</td><td>U+1F53C</td><td>🔼</td></tr><tr><td>🔽</td><td>u1F53D-low.svg</td><td>U+1F53D</td><td>🔽</td></tr><tr><td>🛫</td><td>u1F6EB-start.svg</td><td>U+1F6EB</td><td>🛫</td></tr><tr><td>⏩</td><td>u23E9-postpone.svg</td><td>U+23E9</td><td>⏩</td></tr><tr><td>⏫</td><td>u23EB-high.svg</td><td>U+23EB</td><td>⏫</td></tr><tr><td>⏬</td><td>u23EC-lowest.svg</td><td>U+23EC</td><td>⏬</td></tr><tr><td>⏰</td><td>u23F0-reminder.svg</td><td>U+23F0</td><td>⏰</td></tr><tr><td>⏳</td><td>u23F3-scheduled.svg</td><td>U+23F3</td><td>⏳</td></tr><tr><td>⛔</td><td>u26D4-afterfirst.svg</td><td>U+26D4</td><td>⛔</td></tr><tr><td>✅</td><td>u2705-done.svg</td><td>U+2705</td><td>✅</td></tr><tr><td>❌</td><td>u274C-cancelled.svg</td><td>U+274C</td><td>❌</td></tr><tr><td>➕</td><td>u2795-created.svg</td><td>U+2795</td><td>➕</td></tr><tr><td>󱖉</td><td>uF1589-edit.svg</td><td>U+F1589</td><td>󱖉</td></tr></tbody></table>
